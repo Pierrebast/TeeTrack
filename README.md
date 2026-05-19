@@ -104,14 +104,14 @@ All data is stored locally using `UserDefaults`:
 
 ---
 
-## 📈 Roadmap
+## 📸 Screenshots
 
-- [ ] iCloud / Firebase sync
-- [ ] Advanced analytics (putts, fairways hit)
-- [ ] GPS course mapping
-- [ ] Live round tracking
-- [ ] Leaderboard system
-- [ ] Apple Watch companion app
+<div align="center">
+  <img src="assets/screenshots/iosmenu.png" width="22%" />
+  <img src="assets/screenshots/login.png" width="22%" />
+  <img src="assets/screenshots/createacc.png" width="22%" />
+  <img src="assets/screenshots/homescreen.png" width="22%" />
+</div>
 
 ---
 
