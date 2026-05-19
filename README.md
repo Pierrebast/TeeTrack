@@ -110,7 +110,7 @@ All data is stored locally using `UserDefaults`:
   <img src="assets/Screenshots/iosmenu.png" width="20%" />
   <img src="assets/Screenshots/login.png" width="20%" />
   <img src="assets/Screenshots/createacc.png" width="20%" />
-  <img src="assets/Screenshots/homescreen.png" width="20%" />
+  <img src="assets/Screenshots/homescreen.png" width="18%" />
   <img src="assets/Screenshots/profiledetails.png" width="20%" />
   <img src="assets/Screenshots/courseshown.png" width="20%" />
   <img src="assets/Screenshots/addcourse.png" width="20%" />
