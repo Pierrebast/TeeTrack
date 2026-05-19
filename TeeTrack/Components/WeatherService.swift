@@ -9,7 +9,7 @@ import Foundation
 import CoreLocation
 
 class WeatherService {
-    private let apiKey = "6c5f1427ae26bbcf5df178337d3ea594" // Replace with your key
+    private let apiKey = "" // Replace with your key
     private let baseURL = "https://api.openweathermap.org/data/2.5/weather"
 
     func fetchWeather(for location: CLLocationCoordinate2D, completion: @escaping (WeatherData?) -> Void) {
