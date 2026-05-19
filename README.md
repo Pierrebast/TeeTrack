@@ -6,9 +6,8 @@
 
 ![Swift](https://img.shields.io/badge/Swift-5.9-FA7343?style=flat&logo=swift&logoColor=white)
 ![SwiftUI](https://img.shields.io/badge/SwiftUI-iOS%2015+-0077FF?style=flat&logo=apple&logoColor=white)
-![Architecture](https://img.shields.io/badge/Architecture-MVVM-4CAF50?style=flat)
 ![Storage](https://img.shields.io/badge/Storage-UserDefaults-lightgrey?style=flat)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat)
+
 
 *Replace paper scorecards. Track your game. Improve your handicap.*
 
@@ -38,7 +37,6 @@ TeeTrack is a clean, intuitive golf companion that lets you log rounds, track pe
 
 ### 🧮 Belgian Handicap System
 - Custom stroke allocation based on gender and handicap index
-  - Male: 11 strokes | Female: 12 strokes
 - Dynamic stroke distribution using Stroke Index (SI)
 - Net scoring: `Par + allocated strokes = baseline`
 - Score computed per hole and aggregated per round
@@ -61,7 +59,6 @@ TeeTrack is a clean, intuitive golf companion that lets you log rounds, track pe
 | Layer | Technology |
 |---|---|
 | UI Framework | SwiftUI |
-| Architecture | MVVM |
 | State Management | `@StateObject`, `@ObservedObject`, Combine |
 | Persistence | `UserDefaults` + `Codable` |
 | Minimum Target | iOS 15+ |
@@ -100,20 +97,6 @@ All data is stored locally using `UserDefaults`:
 
 ---
 
-## 🚀 Getting Started
-
-1. Clone the repository
-   ```bash
-   git clone https://github.com/yourusername/TeeTrack.git
-   ```
-2. Open `TeeTrack.xcodeproj` in Xcode 15+
-3. Select a simulator or device running iOS 15+
-4. Build & run (`⌘R`)
-
-> No external dependencies or package manager setup required.
-
----
-
 ## 📈 Roadmap
 
 - [ ] iCloud / Firebase sync
@@ -128,7 +111,6 @@ All data is stored locally using `UserDefaults`:
 ## 👨‍💻 Author
 
 Built with passion for golf & iOS development.  
-Contributions and feedback welcome — feel free to open an issue or PR.
 
 ---
 
