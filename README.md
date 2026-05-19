@@ -121,6 +121,3 @@ Built with passion for golf & iOS development.
 
 ---
 
-<div align="center">
-Made with ☀️ and SwiftUI
-</div>
