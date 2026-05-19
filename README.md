@@ -72,28 +72,6 @@ TeeTrack is a clean, intuitive golf companion that lets you log rounds, track pe
 
 ---
 
-## 🧩 Architecture
-
-```
-TeeTrack/
-├── Models/
-│   ├── User
-│   ├── GolfCourse
-│   ├── StoredGolfRound
-│   └── HoleScore
-├── ViewModels/
-│   └── AuthViewModel        # Authentication + persistence logic
-└── Views/
-    ├── Home                 # Dashboard
-    ├── Scorecard            # Round input
-    ├── Statistics           # Analytics & charts
-    ├── RoundDetail          # Per-hole breakdown
-    ├── Profile              # User profile management
-    └── Settings             # Preferences & account
-```
-
----
-
 ## 💾 Data Persistence
 
 All data is stored locally using `UserDefaults`:
