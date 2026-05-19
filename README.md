@@ -1,15 +1,15 @@
-⛳ TeeTrack
-TeeTrack is a modern iOS golf scoring and performance tracking app built with SwiftUI.
+#⛳ TeeTrack
+#TeeTrack is a modern iOS golf scoring and performance tracking app built with SwiftUI.
 It allows golfers to track rounds, analyze performance, view statistics, and manage their golf profile — all in a clean and intuitive interface.
-📱 Features
-🏌️‍♂️ Golf Round Tracking
-Create and save full golf scorecards (9 or 18 holes)
-Track:
-Strokes
-Putts
-Greens in regulation
-Automatic score saving per round
-📊 Statistics Dashboard
+#📱 Features
+#🏌️‍♂️ Golf Round Tracking
+#Create and save full golf scorecards (9 or 18 holes)
+#Track:
+#Strokes
+#Putts
+#Greens in regulation
+#Automatic score saving per round
+#📊 Statistics Dashboard
 Score progression over time (line chart)
 Filter rounds (Last 5 / Last 10 / All)
 Round history with:
