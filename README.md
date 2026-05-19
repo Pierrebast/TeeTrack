@@ -46,6 +46,13 @@ TeeTrack is a clean, intuitive golf companion that lets you log rounds, track pe
 - Editable profile: name, email, password, gender, handicap, club, year started
 - Persistent storage via `UserDefaults` + `Codable`
 
+### 🌤️ Weather Forecast & Play Planner
+- Search any location to get a **live weather forecast**
+- **8-day forecast** powered by the [OpenWeatherMap API](https://openweathermap.org/api)
+- Smart **best time to play** recommendation based on:
+  - Temperature, wind speed, precipitation chance, and UV index
+- Helps you plan your round before heading to the course
+
 ### 🎨 UI / UX
 - Built 100% in SwiftUI
 - Custom components: top bars, feature cards, round cards, shimmer text
