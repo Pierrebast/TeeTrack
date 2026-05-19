@@ -1,0 +1,862 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF21D08A2DAC76E5000BC30D /* GolfCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF21D0892DAC76E5000BC30D /* GolfCourse.swift */; };
+		BF21D08C2DAC7B43000BC30D /* CourseCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF21D08B2DAC7B43000BC30D /* CourseCard.swift */; };
+		BF21D08E2DAC7BA0000BC30D /* NewCourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF21D08D2DAC7BA0000BC30D /* NewCourseView.swift */; };
+		BF21D0902DAC7D02000BC30D /* CourseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF21D08F2DAC7D02000BC30D /* CourseDetailView.swift */; };
+		BF21D0922DAE7B3E000BC30D /* StartRoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF21D0912DAE7B3E000BC30D /* StartRoundView.swift */; };
+		BF21D0942DAE7FBD000BC30D /* HoleScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF21D0932DAE7FBD000BC30D /* HoleScore.swift */; };
+		BF21D0962DAE7FF2000BC30D /* ScorecardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF21D0952DAE7FF2000BC30D /* ScorecardView.swift */; };
+		BF21D0982DAE803C000BC30D /* HoleScoreCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF21D0972DAE803C000BC30D /* HoleScoreCard.swift */; };
+		BF21D09A2DAE80E9000BC30D /* StoredGolfRound.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF21D0992DAE80E9000BC30D /* StoredGolfRound.swift */; };
+		BF21D09C2DAE916A000BC30D /* View+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF21D09B2DAE916A000BC30D /* View+Keyboard.swift */; };
+		BF21D0A22DAEA0A5000BC30D /* Notification+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF21D0A12DAEA0A5000BC30D /* Notification+Extensions.swift */; };
+		BF21D0A42DAEC41B000BC30D /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF21D0A32DAEC41B000BC30D /* StatsView.swift */; };
+		BF21D0A62DAEC44A000BC30D /* ScoreLineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF21D0A52DAEC44A000BC30D /* ScoreLineChart.swift */; };
+		BF21D0A82DAEE826000BC30D /* RoundDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF21D0A72DAEE826000BC30D /* RoundDetailView.swift */; };
+		BF21D0AA2DAFD520000BC30D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF21D0A92DAFD520000BC30D /* SettingsView.swift */; };
+		BF527FFC2DA968C30073E2F7 /* TeeTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF527FFB2DA968C30073E2F7 /* TeeTrackApp.swift */; };
+		BF527FFE2DA968C30073E2F7 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF527FFD2DA968C30073E2F7 /* Persistence.swift */; };
+		BF5280012DA968C30073E2F7 /* TeeTrack.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF527FFF2DA968C30073E2F7 /* TeeTrack.xcdatamodeld */; };
+		BF5280032DA968C30073E2F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5280022DA968C30073E2F7 /* ContentView.swift */; };
+		BF5280052DA968C50073E2F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5280042DA968C50073E2F7 /* Assets.xcassets */; };
+		BF5280092DA968C50073E2F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5280082DA968C50073E2F7 /* Preview Assets.xcassets */; };
+		BF5280132DA968C50073E2F7 /* TeeTrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5280122DA968C50073E2F7 /* TeeTrackTests.swift */; };
+		BF52801D2DA968C50073E2F7 /* TeeTrackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF52801C2DA968C50073E2F7 /* TeeTrackUITests.swift */; };
+		BF52801F2DA968C50073E2F7 /* TeeTrackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF52801E2DA968C50073E2F7 /* TeeTrackUITestsLaunchTests.swift */; };
+		BF5280312DA96AE70073E2F7 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5280302DA96AE70073E2F7 /* AppColors.swift */; };
+		BF5280332DA96B110073E2F7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5280322DA96B110073E2F7 /* User.swift */; };
+		BF5280352DA96B460073E2F7 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5280342DA96B460073E2F7 /* AuthViewModel.swift */; };
+		BF5280372DA96BA40073E2F7 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5280362DA96BA40073E2F7 /* WelcomeView.swift */; };
+		BF52803B2DA96BC20073E2F7 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF52803A2DA96BC20073E2F7 /* SignupView.swift */; };
+		BF52803D2DA96BD10073E2F7 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF52803C2DA96BD10073E2F7 /* MainTabView.swift */; };
+		BF52803F2DA96F990073E2F7 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF52803E2DA96F990073E2F7 /* Background.swift */; };
+		BF5280432DA97D230073E2F7 /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5280422DA97D230073E2F7 /* LaunchScreenView.swift */; };
+		BF5280452DA984A30073E2F7 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5280442DA984A30073E2F7 /* CustomTextField.swift */; };
+		BF5280472DA984C10073E2F7 /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5280462DA984C10073E2F7 /* CustomSecureField.swift */; };
+		BF52804A2DA998AB0073E2F7 /* SuccessIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5280492DA998AB0073E2F7 /* SuccessIcon.swift */; };
+		BF52804C2DA99FED0073E2F7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF52804B2DA99FED0073E2F7 /* HomeView.swift */; };
+		BF52804E2DA9A16C0073E2F7 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF52804D2DA9A16C0073E2F7 /* FeatureCard.swift */; };
+		BF5280502DA9AB4D0073E2F7 /* TopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF52804F2DA9AB4D0073E2F7 /* TopBarView.swift */; };
+		BF5280522DA9AB790073E2F7 /* CoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5280512DA9AB790073E2F7 /* CoursesView.swift */; };
+		BF5280542DA9ABA90073E2F7 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5280532DA9ABA90073E2F7 /* ProfileView.swift */; };
+		BF5280562DA9B1A90073E2F7 /* SlideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5280552DA9B1A90073E2F7 /* SlideMenuView.swift */; };
+		BF5280582DA9B6370073E2F7 /* View+CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5280572DA9B6370073E2F7 /* View+CornerRadius.swift */; };
+		BF52805A2DAA95410073E2F7 /* ShimmerText.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5280592DAA95410073E2F7 /* ShimmerText.swift */; };
+		BF52805C2DAA97B50073E2F7 /* AnimatedQuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF52805B2DAA97B50073E2F7 /* AnimatedQuoteView.swift */; };
+		BF52805E2DAA9C130073E2F7 /* GolfQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF52805D2DAA9C130073E2F7 /* GolfQuotes.swift */; };
+		BF5280602DAAB4500073E2F7 /* ShimmerTextCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF52805F2DAAB4500073E2F7 /* ShimmerTextCard.swift */; };
+		BF5280622DAACF600073E2F7 /* GolfRound.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5280612DAACF600073E2F7 /* GolfRound.swift */; };
+		BF5280662DAAD0D00073E2F7 /* RoundCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5280652DAAD0D00073E2F7 /* RoundCard.swift */; };
+		BF5280682DAAF4D10073E2F7 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5280672DAAF4D10073E2F7 /* WeatherService.swift */; };
+		BF52806A2DAAF8210073E2F7 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5280692DAAF8210073E2F7 /* WeatherData.swift */; };
+		BF52806C2DAAF8830073E2F7 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF52806B2DAAF8830073E2F7 /* WeatherView.swift */; };
+		BF52806E2DAAFE6E0073E2F7 /* BackTopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF52806D2DAAFE6E0073E2F7 /* BackTopBarView.swift */; };
+		BF5280702DAB010E0073E2F7 /* ForecastResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF52806F2DAB010E0073E2F7 /* ForecastResponse.swift */; };
+		BF5280722DAB05010073E2F7 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5280712DAB05010073E2F7 /* LocationManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF52800F2DA968C50073E2F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF527FF02DA968C30073E2F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF527FF72DA968C30073E2F7;
+			remoteInfo = TeeTrack;
+		};
+		BF5280192DA968C50073E2F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF527FF02DA968C30073E2F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF527FF72DA968C30073E2F7;
+			remoteInfo = TeeTrack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF21D0892DAC76E5000BC30D /* GolfCourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfCourse.swift; sourceTree = "<group>"; };
+		BF21D08B2DAC7B43000BC30D /* CourseCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCard.swift; sourceTree = "<group>"; };
+		BF21D08D2DAC7BA0000BC30D /* NewCourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCourseView.swift; sourceTree = "<group>"; };
+		BF21D08F2DAC7D02000BC30D /* CourseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailView.swift; sourceTree = "<group>"; };
+		BF21D0912DAE7B3E000BC30D /* StartRoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartRoundView.swift; sourceTree = "<group>"; };
+		BF21D0932DAE7FBD000BC30D /* HoleScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoleScore.swift; sourceTree = "<group>"; };
+		BF21D0952DAE7FF2000BC30D /* ScorecardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScorecardView.swift; sourceTree = "<group>"; };
+		BF21D0972DAE803C000BC30D /* HoleScoreCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoleScoreCard.swift; sourceTree = "<group>"; };
+		BF21D0992DAE80E9000BC30D /* StoredGolfRound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoredGolfRound.swift; sourceTree = "<group>"; };
+		BF21D09B2DAE916A000BC30D /* View+Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Keyboard.swift"; sourceTree = "<group>"; };
+		BF21D0A12DAEA0A5000BC30D /* Notification+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+Extensions.swift"; sourceTree = "<group>"; };
+		BF21D0A32DAEC41B000BC30D /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		BF21D0A52DAEC44A000BC30D /* ScoreLineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreLineChart.swift; sourceTree = "<group>"; };
+		BF21D0A72DAEE826000BC30D /* RoundDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundDetailView.swift; sourceTree = "<group>"; };
+		BF21D0A92DAFD520000BC30D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		BF527FF82DA968C30073E2F7 /* TeeTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeeTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF527FFB2DA968C30073E2F7 /* TeeTrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeeTrackApp.swift; sourceTree = "<group>"; };
+		BF527FFD2DA968C30073E2F7 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		BF5280002DA968C30073E2F7 /* TeeTrack.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TeeTrack.xcdatamodel; sourceTree = "<group>"; };
+		BF5280022DA968C30073E2F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF5280042DA968C50073E2F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF5280062DA968C50073E2F7 /* TeeTrack.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TeeTrack.entitlements; sourceTree = "<group>"; };
+		BF5280082DA968C50073E2F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF52800E2DA968C50073E2F7 /* TeeTrackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeeTrackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5280122DA968C50073E2F7 /* TeeTrackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeeTrackTests.swift; sourceTree = "<group>"; };
+		BF5280182DA968C50073E2F7 /* TeeTrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeeTrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF52801C2DA968C50073E2F7 /* TeeTrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeeTrackUITests.swift; sourceTree = "<group>"; };
+		BF52801E2DA968C50073E2F7 /* TeeTrackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeeTrackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BF5280302DA96AE70073E2F7 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		BF5280322DA96B110073E2F7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BF5280342DA96B460073E2F7 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		BF5280362DA96BA40073E2F7 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		BF52803A2DA96BC20073E2F7 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		BF52803C2DA96BD10073E2F7 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		BF52803E2DA96F990073E2F7 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		BF5280422DA97D230073E2F7 /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
+		BF5280442DA984A30073E2F7 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		BF5280462DA984C10073E2F7 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
+		BF5280492DA998AB0073E2F7 /* SuccessIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessIcon.swift; sourceTree = "<group>"; };
+		BF52804B2DA99FED0073E2F7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BF52804D2DA9A16C0073E2F7 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		BF52804F2DA9AB4D0073E2F7 /* TopBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarView.swift; sourceTree = "<group>"; };
+		BF5280512DA9AB790073E2F7 /* CoursesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesView.swift; sourceTree = "<group>"; };
+		BF5280532DA9ABA90073E2F7 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		BF5280552DA9B1A90073E2F7 /* SlideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenuView.swift; sourceTree = "<group>"; };
+		BF5280572DA9B6370073E2F7 /* View+CornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+CornerRadius.swift"; sourceTree = "<group>"; };
+		BF5280592DAA95410073E2F7 /* ShimmerText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerText.swift; sourceTree = "<group>"; };
+		BF52805B2DAA97B50073E2F7 /* AnimatedQuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedQuoteView.swift; sourceTree = "<group>"; };
+		BF52805D2DAA9C130073E2F7 /* GolfQuotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfQuotes.swift; sourceTree = "<group>"; };
+		BF52805F2DAAB4500073E2F7 /* ShimmerTextCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerTextCard.swift; sourceTree = "<group>"; };
+		BF5280612DAACF600073E2F7 /* GolfRound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfRound.swift; sourceTree = "<group>"; };
+		BF5280652DAAD0D00073E2F7 /* RoundCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundCard.swift; sourceTree = "<group>"; };
+		BF5280672DAAF4D10073E2F7 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		BF5280692DAAF8210073E2F7 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		BF52806B2DAAF8830073E2F7 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		BF52806D2DAAFE6E0073E2F7 /* BackTopBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackTopBarView.swift; sourceTree = "<group>"; };
+		BF52806F2DAB010E0073E2F7 /* ForecastResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastResponse.swift; sourceTree = "<group>"; };
+		BF5280712DAB05010073E2F7 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF527FF52DA968C30073E2F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF52800B2DA968C50073E2F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5280152DA968C50073E2F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF527FEF2DA968C30073E2F7 = {
+			isa = PBXGroup;
+			children = (
+				BF527FFA2DA968C30073E2F7 /* TeeTrack */,
+				BF5280112DA968C50073E2F7 /* TeeTrackTests */,
+				BF52801B2DA968C50073E2F7 /* TeeTrackUITests */,
+				BF527FF92DA968C30073E2F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF527FF92DA968C30073E2F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF527FF82DA968C30073E2F7 /* TeeTrack.app */,
+				BF52800E2DA968C50073E2F7 /* TeeTrackTests.xctest */,
+				BF5280182DA968C50073E2F7 /* TeeTrackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF527FFA2DA968C30073E2F7 /* TeeTrack */ = {
+			isa = PBXGroup;
+			children = (
+				BF5280482DA998920073E2F7 /* Components */,
+				BF52802F2DA96ACB0073E2F7 /* Helpers */,
+				BF52802E2DA96AC00073E2F7 /* ViewModels */,
+				BF52802C2DA96A930073E2F7 /* Views */,
+				BF52802B2DA96A8C0073E2F7 /* Models */,
+				BF527FFB2DA968C30073E2F7 /* TeeTrackApp.swift */,
+				BF527FFD2DA968C30073E2F7 /* Persistence.swift */,
+				BF5280022DA968C30073E2F7 /* ContentView.swift */,
+				BF5280042DA968C50073E2F7 /* Assets.xcassets */,
+				BF5280062DA968C50073E2F7 /* TeeTrack.entitlements */,
+				BF527FFF2DA968C30073E2F7 /* TeeTrack.xcdatamodeld */,
+				BF5280072DA968C50073E2F7 /* Preview Content */,
+			);
+			path = TeeTrack;
+			sourceTree = "<group>";
+		};
+		BF5280072DA968C50073E2F7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BF5280082DA968C50073E2F7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF5280112DA968C50073E2F7 /* TeeTrackTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF5280122DA968C50073E2F7 /* TeeTrackTests.swift */,
+			);
+			path = TeeTrackTests;
+			sourceTree = "<group>";
+		};
+		BF52801B2DA968C50073E2F7 /* TeeTrackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF52801C2DA968C50073E2F7 /* TeeTrackUITests.swift */,
+				BF52801E2DA968C50073E2F7 /* TeeTrackUITestsLaunchTests.swift */,
+			);
+			path = TeeTrackUITests;
+			sourceTree = "<group>";
+		};
+		BF52802B2DA96A8C0073E2F7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BF5280322DA96B110073E2F7 /* User.swift */,
+				BF5280692DAAF8210073E2F7 /* WeatherData.swift */,
+				BF52806F2DAB010E0073E2F7 /* ForecastResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BF52802C2DA96A930073E2F7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BF5280362DA96BA40073E2F7 /* WelcomeView.swift */,
+				BF52803A2DA96BC20073E2F7 /* SignupView.swift */,
+				BF52803C2DA96BD10073E2F7 /* MainTabView.swift */,
+				BF52803E2DA96F990073E2F7 /* Background.swift */,
+				BF5280422DA97D230073E2F7 /* LaunchScreenView.swift */,
+				BF52804B2DA99FED0073E2F7 /* HomeView.swift */,
+				BF52804D2DA9A16C0073E2F7 /* FeatureCard.swift */,
+				BF52804F2DA9AB4D0073E2F7 /* TopBarView.swift */,
+				BF5280512DA9AB790073E2F7 /* CoursesView.swift */,
+				BF5280532DA9ABA90073E2F7 /* ProfileView.swift */,
+				BF5280552DA9B1A90073E2F7 /* SlideMenuView.swift */,
+				BF5280652DAAD0D00073E2F7 /* RoundCard.swift */,
+				BF52806B2DAAF8830073E2F7 /* WeatherView.swift */,
+				BF52806D2DAAFE6E0073E2F7 /* BackTopBarView.swift */,
+				BF21D08B2DAC7B43000BC30D /* CourseCard.swift */,
+				BF21D08D2DAC7BA0000BC30D /* NewCourseView.swift */,
+				BF21D08F2DAC7D02000BC30D /* CourseDetailView.swift */,
+				BF21D0912DAE7B3E000BC30D /* StartRoundView.swift */,
+				BF21D0952DAE7FF2000BC30D /* ScorecardView.swift */,
+				BF21D0972DAE803C000BC30D /* HoleScoreCard.swift */,
+				BF21D0A32DAEC41B000BC30D /* StatsView.swift */,
+				BF21D0A52DAEC44A000BC30D /* ScoreLineChart.swift */,
+				BF21D0A72DAEE826000BC30D /* RoundDetailView.swift */,
+				BF21D0A92DAFD520000BC30D /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BF52802E2DA96AC00073E2F7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BF5280342DA96B460073E2F7 /* AuthViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BF52802F2DA96ACB0073E2F7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BF5280302DA96AE70073E2F7 /* AppColors.swift */,
+				BF5280442DA984A30073E2F7 /* CustomTextField.swift */,
+				BF5280462DA984C10073E2F7 /* CustomSecureField.swift */,
+				BF5280572DA9B6370073E2F7 /* View+CornerRadius.swift */,
+				BF5280592DAA95410073E2F7 /* ShimmerText.swift */,
+				BF52805B2DAA97B50073E2F7 /* AnimatedQuoteView.swift */,
+				BF52805F2DAAB4500073E2F7 /* ShimmerTextCard.swift */,
+				BF5280712DAB05010073E2F7 /* LocationManager.swift */,
+				BF21D09B2DAE916A000BC30D /* View+Keyboard.swift */,
+				BF21D0A12DAEA0A5000BC30D /* Notification+Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BF5280482DA998920073E2F7 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BF5280492DA998AB0073E2F7 /* SuccessIcon.swift */,
+				BF52805D2DAA9C130073E2F7 /* GolfQuotes.swift */,
+				BF5280612DAACF600073E2F7 /* GolfRound.swift */,
+				BF5280672DAAF4D10073E2F7 /* WeatherService.swift */,
+				BF21D0892DAC76E5000BC30D /* GolfCourse.swift */,
+				BF21D0932DAE7FBD000BC30D /* HoleScore.swift */,
+				BF21D0992DAE80E9000BC30D /* StoredGolfRound.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF527FF72DA968C30073E2F7 /* TeeTrack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF5280222DA968C50073E2F7 /* Build configuration list for PBXNativeTarget "TeeTrack" */;
+			buildPhases = (
+				BF527FF42DA968C30073E2F7 /* Sources */,
+				BF527FF52DA968C30073E2F7 /* Frameworks */,
+				BF527FF62DA968C30073E2F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeeTrack;
+			productName = TeeTrack;
+			productReference = BF527FF82DA968C30073E2F7 /* TeeTrack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF52800D2DA968C50073E2F7 /* TeeTrackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF5280252DA968C50073E2F7 /* Build configuration list for PBXNativeTarget "TeeTrackTests" */;
+			buildPhases = (
+				BF52800A2DA968C50073E2F7 /* Sources */,
+				BF52800B2DA968C50073E2F7 /* Frameworks */,
+				BF52800C2DA968C50073E2F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF5280102DA968C50073E2F7 /* PBXTargetDependency */,
+			);
+			name = TeeTrackTests;
+			productName = TeeTrackTests;
+			productReference = BF52800E2DA968C50073E2F7 /* TeeTrackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF5280172DA968C50073E2F7 /* TeeTrackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF5280282DA968C50073E2F7 /* Build configuration list for PBXNativeTarget "TeeTrackUITests" */;
+			buildPhases = (
+				BF5280142DA968C50073E2F7 /* Sources */,
+				BF5280152DA968C50073E2F7 /* Frameworks */,
+				BF5280162DA968C50073E2F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF52801A2DA968C50073E2F7 /* PBXTargetDependency */,
+			);
+			name = TeeTrackUITests;
+			productName = TeeTrackUITests;
+			productReference = BF5280182DA968C50073E2F7 /* TeeTrackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF527FF02DA968C30073E2F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BF527FF72DA968C30073E2F7 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					BF52800D2DA968C50073E2F7 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BF527FF72DA968C30073E2F7;
+					};
+					BF5280172DA968C50073E2F7 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BF527FF72DA968C30073E2F7;
+					};
+				};
+			};
+			buildConfigurationList = BF527FF32DA968C30073E2F7 /* Build configuration list for PBXProject "TeeTrack" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF527FEF2DA968C30073E2F7;
+			productRefGroup = BF527FF92DA968C30073E2F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF527FF72DA968C30073E2F7 /* TeeTrack */,
+				BF52800D2DA968C50073E2F7 /* TeeTrackTests */,
+				BF5280172DA968C50073E2F7 /* TeeTrackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF527FF62DA968C30073E2F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5280092DA968C50073E2F7 /* Preview Assets.xcassets in Resources */,
+				BF5280052DA968C50073E2F7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF52800C2DA968C50073E2F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5280162DA968C50073E2F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF527FF42DA968C30073E2F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF21D0A62DAEC44A000BC30D /* ScoreLineChart.swift in Sources */,
+				BF21D0922DAE7B3E000BC30D /* StartRoundView.swift in Sources */,
+				BF5280452DA984A30073E2F7 /* CustomTextField.swift in Sources */,
+				BF21D0A22DAEA0A5000BC30D /* Notification+Extensions.swift in Sources */,
+				BF5280012DA968C30073E2F7 /* TeeTrack.xcdatamodeld in Sources */,
+				BF21D0902DAC7D02000BC30D /* CourseDetailView.swift in Sources */,
+				BF21D0A82DAEE826000BC30D /* RoundDetailView.swift in Sources */,
+				BF21D08E2DAC7BA0000BC30D /* NewCourseView.swift in Sources */,
+				BF21D09C2DAE916A000BC30D /* View+Keyboard.swift in Sources */,
+				BF5280432DA97D230073E2F7 /* LaunchScreenView.swift in Sources */,
+				BF52806E2DAAFE6E0073E2F7 /* BackTopBarView.swift in Sources */,
+				BF527FFC2DA968C30073E2F7 /* TeeTrackApp.swift in Sources */,
+				BF5280332DA96B110073E2F7 /* User.swift in Sources */,
+				BF5280682DAAF4D10073E2F7 /* WeatherService.swift in Sources */,
+				BF21D0AA2DAFD520000BC30D /* SettingsView.swift in Sources */,
+				BF52804C2DA99FED0073E2F7 /* HomeView.swift in Sources */,
+				BF5280582DA9B6370073E2F7 /* View+CornerRadius.swift in Sources */,
+				BF52803B2DA96BC20073E2F7 /* SignupView.swift in Sources */,
+				BF5280602DAAB4500073E2F7 /* ShimmerTextCard.swift in Sources */,
+				BF5280472DA984C10073E2F7 /* CustomSecureField.swift in Sources */,
+				BF5280562DA9B1A90073E2F7 /* SlideMenuView.swift in Sources */,
+				BF52803D2DA96BD10073E2F7 /* MainTabView.swift in Sources */,
+				BF5280662DAAD0D00073E2F7 /* RoundCard.swift in Sources */,
+				BF21D0A42DAEC41B000BC30D /* StatsView.swift in Sources */,
+				BF52804E2DA9A16C0073E2F7 /* FeatureCard.swift in Sources */,
+				BF5280522DA9AB790073E2F7 /* CoursesView.swift in Sources */,
+				BF52806A2DAAF8210073E2F7 /* WeatherData.swift in Sources */,
+				BF5280722DAB05010073E2F7 /* LocationManager.swift in Sources */,
+				BF5280372DA96BA40073E2F7 /* WelcomeView.swift in Sources */,
+				BF21D09A2DAE80E9000BC30D /* StoredGolfRound.swift in Sources */,
+				BF52805E2DAA9C130073E2F7 /* GolfQuotes.swift in Sources */,
+				BF52805C2DAA97B50073E2F7 /* AnimatedQuoteView.swift in Sources */,
+				BF21D08C2DAC7B43000BC30D /* CourseCard.swift in Sources */,
+				BF52806C2DAAF8830073E2F7 /* WeatherView.swift in Sources */,
+				BF5280352DA96B460073E2F7 /* AuthViewModel.swift in Sources */,
+				BF5280032DA968C30073E2F7 /* ContentView.swift in Sources */,
+				BF21D0962DAE7FF2000BC30D /* ScorecardView.swift in Sources */,
+				BF5280312DA96AE70073E2F7 /* AppColors.swift in Sources */,
+				BF21D08A2DAC76E5000BC30D /* GolfCourse.swift in Sources */,
+				BF5280622DAACF600073E2F7 /* GolfRound.swift in Sources */,
+				BF5280502DA9AB4D0073E2F7 /* TopBarView.swift in Sources */,
+				BF527FFE2DA968C30073E2F7 /* Persistence.swift in Sources */,
+				BF52804A2DA998AB0073E2F7 /* SuccessIcon.swift in Sources */,
+				BF21D0982DAE803C000BC30D /* HoleScoreCard.swift in Sources */,
+				BF5280702DAB010E0073E2F7 /* ForecastResponse.swift in Sources */,
+				BF52805A2DAA95410073E2F7 /* ShimmerText.swift in Sources */,
+				BF5280542DA9ABA90073E2F7 /* ProfileView.swift in Sources */,
+				BF21D0942DAE7FBD000BC30D /* HoleScore.swift in Sources */,
+				BF52803F2DA96F990073E2F7 /* Background.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF52800A2DA968C50073E2F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5280132DA968C50073E2F7 /* TeeTrackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5280142DA968C50073E2F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF52801F2DA968C50073E2F7 /* TeeTrackUITestsLaunchTests.swift in Sources */,
+				BF52801D2DA968C50073E2F7 /* TeeTrackUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF5280102DA968C50073E2F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF527FF72DA968C30073E2F7 /* TeeTrack */;
+			targetProxy = BF52800F2DA968C50073E2F7 /* PBXContainerItemProxy */;
+		};
+		BF52801A2DA968C50073E2F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF527FF72DA968C30073E2F7 /* TeeTrack */;
+			targetProxy = BF5280192DA968C50073E2F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BF5280202DA968C50073E2F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF5280212DA968C50073E2F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BF5280232DA968C50073E2F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TeeTrack/TeeTrack.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TeeTrack/Preview Content\"";
+				DEVELOPMENT_TEAM = QM6CTACGXH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pierrebast.TeeTrack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BF5280242DA968C50073E2F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TeeTrack/TeeTrack.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TeeTrack/Preview Content\"";
+				DEVELOPMENT_TEAM = QM6CTACGXH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pierrebast.TeeTrack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BF5280262DA968C50073E2F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QM6CTACGXH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pierrebast.TeeTrackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeeTrack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TeeTrack";
+			};
+			name = Debug;
+		};
+		BF5280272DA968C50073E2F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QM6CTACGXH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pierrebast.TeeTrackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeeTrack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TeeTrack";
+			};
+			name = Release;
+		};
+		BF5280292DA968C50073E2F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QM6CTACGXH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pierrebast.TeeTrackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TeeTrack;
+			};
+			name = Debug;
+		};
+		BF52802A2DA968C50073E2F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QM6CTACGXH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pierrebast.TeeTrackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TeeTrack;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF527FF32DA968C30073E2F7 /* Build configuration list for PBXProject "TeeTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5280202DA968C50073E2F7 /* Debug */,
+				BF5280212DA968C50073E2F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF5280222DA968C50073E2F7 /* Build configuration list for PBXNativeTarget "TeeTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5280232DA968C50073E2F7 /* Debug */,
+				BF5280242DA968C50073E2F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF5280252DA968C50073E2F7 /* Build configuration list for PBXNativeTarget "TeeTrackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5280262DA968C50073E2F7 /* Debug */,
+				BF5280272DA968C50073E2F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF5280282DA968C50073E2F7 /* Build configuration list for PBXNativeTarget "TeeTrackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5280292DA968C50073E2F7 /* Debug */,
+				BF52802A2DA968C50073E2F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BF527FFF2DA968C30073E2F7 /* TeeTrack.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BF5280002DA968C30073E2F7 /* TeeTrack.xcdatamodel */,
+			);
+			currentVersion = BF5280002DA968C30073E2F7 /* TeeTrack.xcdatamodel */;
+			path = TeeTrack.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BF527FF02DA968C30073E2F7 /* Project object */;
+}
