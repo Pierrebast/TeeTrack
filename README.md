@@ -107,10 +107,10 @@ All data is stored locally using `UserDefaults`:
 ## 📸 Screenshots
 
 <div align="center">
-  <img src="assets/screenshots/iosmenu.png" width="22%" />
-  <img src="assets/screenshots/login.png" width="22%" />
-  <img src="assets/screenshots/createacc.png" width="22%" />
-  <img src="assets/screenshots/homescreen.png" width="22%" />
+  <img src="assets/Screenshots/iosmenu.png" width="22%" />
+  <img src="assets/Screenshots/login.png" width="22%" />
+  <img src="assets/Screenshots/createacc.png" width="22%" />
+  <img src="assets/Screenshots/homescreen.png" width="22%" />
 </div>
 
 ---
