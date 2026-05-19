@@ -107,10 +107,22 @@ All data is stored locally using `UserDefaults`:
 ## 📸 Screenshots
 
 <div align="center">
-  <img src="assets/Screenshots/iosmenu.png" width="22%" />
-  <img src="assets/Screenshots/login.png" width="22%" />
-  <img src="assets/Screenshots/createacc.png" width="22%" />
-  <img src="assets/Screenshots/homescreen.png" width="22%" />
+  <img src="assets/Screenshots/iosmenu.png" width="20%" />
+  <img src="assets/Screenshots/login.png" width="20%" />
+  <img src="assets/Screenshots/createacc.png" width="20%" />
+  <img src="assets/Screenshots/homescreen.png" width="20%" />
+  <img src="assets/Screenshots/profiledetails.png" width="20%" />
+  <img src="assets/Screenshots/courseshown.png" width="20%" />
+  <img src="assets/Screenshots/addcourse.png" width="20%" />
+  <img src="assets/Screenshots/weathersearch.png" width="20%" />
+  <img src="assets/Screenshots/weatherbesttiming.png" width="20%" />
+  <img src="assets/Screenshots/statsgraph.png" width="20%" />
+  <img src="assets/Screenshots/stats1.png" width="20%" />
+  <img src="assets/Screenshots/stats2.png" width="20%" />
+  <img src="assets/Screenshots/startround.png" width="20%" />
+  <img src="assets/Screenshots/scorecard.png" width="20%" />
+  <img src="assets/Screenshots/scorenet.png" width="20%" />
+  <img src="assets/Screenshots/slidebaraccsettings.png" width="20%" />
 </div>
 
 ---
